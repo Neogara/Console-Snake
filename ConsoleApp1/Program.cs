@@ -226,7 +226,7 @@ namespace ConsoleApp1
                             IsEndGame = true;
                             snake.ChangeSnakeColor(ConsoleColor.Red);
 
-                            MiddleWriteTextX("You are lose !", 10);
+                            MiddleWriteTextX("You Died", 10);
                             MiddleWriteTextX("Press any key to restart", 11);
                             break;
                         }
